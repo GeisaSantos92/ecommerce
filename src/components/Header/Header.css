@@ -1,0 +1,134 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 7rem;
+    margin-left: 7rem;
+    background: #F4CBD3;
+    border-radius: 40px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 350px;
+  
+}
+.header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    
+}
+.header-left h1{
+    line-height: 5px;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    color: var(--black);
+}
+.header-left button{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: lightgrey
+}
+.header-left .icon{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+
+
+.header-right, .header-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;  
+}
+.middle{
+    background: rgb(235,183,34);
+    background: linear-gradient(245deg, rgba(235,183,34,1) 0%, rgba(245,215,110,1) 100%);
+    padding: 6rem;
+    border-radius: 10px;
+    margin-right: 10rem;
+    box-shadow: var(--shadow2);
+}
+.middle img{
+    transform:scale(1.8);
+  }
+
+.header-right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+   
+    
+}
+.header-right img{
+    width: 20rem;
+    height: 20rem;
+}
+.header-right .img{
+    background: #AACAE3;
+    margin-left: 2rem;
+    border-bottom-right-radius: 40px;   
+    padding-top: 1rem;
+}
+
+.header-right .icon{
+    color:#767271 ;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 11rem;  
+   cursor: pointer;
+}
+
+
+
+
+
+
+@media screen and (max-width:780px){
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin: 0.5rem;
+        height: auto;
+    }
+    .middle{
+        display: none;
+    }
+    .header-right{
+        display: none;
+    }
+    .header-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-left h1{
+        font-size: large;
+        color: var(--black);
+    }
+    .header-left button{
+        width: 100%;
+        padding: .5rem;
+        font-size: small;
+    }
+
+    .header-left .icon{
+        width: 1rem;
+        height: 1rem;
+    }
+
+}
