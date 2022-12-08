@@ -4,7 +4,7 @@
     background: #3D3E4A;
     margin-top: 3rem;
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     color: white;
 }
 
@@ -16,17 +16,21 @@
 
 .footer-1 span, .footer-2 span, .footer-3 span, .footer-4 span{
     font-weight: 200;
-    font-size: 1.1rem;
+    font-size: .8rem;
 }
 
 h2{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
+}
+
+.footer-1 h1{
+    font-size: 2rem;
 }
 
 .footer-1 span:nth-child(1){
     color: var(--pink);
-    font-size:2.5rem;
+    font-size:2rem;
     font-weight: bold;
 }
 
@@ -37,9 +41,9 @@ h2{
 
 .footer-1 .icon{
     color: white;
-    margin-right: 2.5rem;
-    height: 1.5rem;
-    width: 1.5rem;
+    margin-right: 2rem;
+    height: 1.2rem;
+    width: 1.2rem;
 }
 
 

@@ -27,9 +27,6 @@ export const Header = () => {
         </div>
 
         <div className="header-right">
-                <RiInstagramFill className='icon'/>
-                <BsFacebook className='icon'/>
-                <AiFillTwitterCircle className='icon'/>
             <div className="img">
                  <img src={parfum} alt="" />
             </div>

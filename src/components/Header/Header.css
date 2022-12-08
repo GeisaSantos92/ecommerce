@@ -19,17 +19,17 @@
     
 }
 .header-left h1{
-    line-height: 5px;
+    line-height: 2px;
     padding-bottom: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--black);
 }
 .header-left button{
-    padding: 1rem;
+    padding: .5rem;
     background-color: white;
     border-radius: 30px;
     border: none;
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,8 +38,8 @@
     color: lightgrey
 }
 .header-left .icon{
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 
@@ -53,13 +53,13 @@
 .middle{
     background: rgb(235,183,34);
     background: linear-gradient(245deg, rgba(235,183,34,1) 0%, rgba(245,215,110,1) 100%);
-    padding: 6rem;
+    padding: 5.5rem;
+    margin-right: 3rem;
     border-radius: 10px;
-    margin-right: 10rem;
     box-shadow: var(--shadow2);
 }
 .middle img{
-    transform:scale(1.8);
+    transform:scale(1.5);
   }
 
 .header-right{
@@ -70,23 +70,18 @@
     
 }
 .header-right img{
-    width: 20rem;
-    height: 20rem;
+    width: 16rem;
+    height: 16rem;
 }
 .header-right .img{
     background: #AACAE3;
     margin-left: 2rem;
+    margin-top: 6.5rem;
     border-bottom-right-radius: 40px;   
     padding-top: 1rem;
 }
 
-.header-right .icon{
-    color:#767271 ;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-left: 11rem;  
-   cursor: pointer;
-}
+
 
 
 

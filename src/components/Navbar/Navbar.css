@@ -9,7 +9,7 @@
 
 .navbar h1{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2rem;
     color: var(--black);
     cursor: pointer;
 }
@@ -21,9 +21,9 @@
 .navbar ul li{
     display: inline;
     padding: 2rem;
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: #767676;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .navbar ul li:hover{
@@ -38,8 +38,8 @@
     cursor: pointer;
 }
 .nav-icons .icons{
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.3rem;
+    width: 1.3rem;
     color: #767676;
 }
 
